@@ -90,3 +90,5 @@ def predict_fn(input_data, model):
         output = model.forward(data)
         
     result = np.round(output.numpy())
+   
+    return result
